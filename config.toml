@@ -76,19 +76,24 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 10
 
 [[menu.main]]
+  url = "/services"
+  name = "Services"
+  weight = 20
+
+[[menu.main]]
   url = "/fragments"
   name = "Fragments"
-  weight = 20
+  weight = 30
 
 [[menu.main]]
   url = "/docs"
   name = "Docs"
-  weight = 30
+  weight = 40
 
 [[menu.main]]
   url = "/about"
   name = "About us"
-  weight = 40
+  weight = 50
 
 #[[menu.footer]]
 #  url = "https://syna.okkur.org/demo"
