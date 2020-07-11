@@ -4,7 +4,7 @@ fragment = "hero"
 date = "2020-07-11"
 weight = 50
 background = "light" # can influence the text color
-particles = true
+#particles = true
 
 title = "Origoss Solutions"
 subtitle = "Showcase your next project"

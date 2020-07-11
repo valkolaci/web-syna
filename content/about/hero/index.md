@@ -4,9 +4,12 @@ fragment = "hero"
 date = "2020-07-11"
 weight = 50
 background = "light"
+color = "light"
 
+minHeight = "5em"
 title = "About us"
-subtitle = ""
+title_align = "left"
+#subtitle = ""
 
 [header]
   image = "origoss-about.png"
