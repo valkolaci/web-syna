@@ -2,7 +2,7 @@
 baseurl = "/web-syna/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "Okkur - Syna"
+title = "Origoss Solutions"
 theme = "syna"
 enableGitInfo = true
 version = "0.17.2"
@@ -56,14 +56,14 @@ lastmod = ["lastmod", ":git", "date"]
     pro = false
 
   [params.colors]
-    primary = "#00838F"
-    secondary = "#868e96"
+    primary = "#254f24"
+    secondary = "#3fab3c"
     success = "#008f54"
     info = "#00c9dc"
     warning = "#fdf314"
     danger = "#dc1200"
-    light = "#f8f9fa"
-    dark = "#343a40"
+    light = "#ffffff"
+    dark = "#000000"
 
 # main/prepend/postpend menus are displayed in nav fragment.
 # footer/footer_social menus are displayed in footer fragment.
@@ -87,24 +87,24 @@ lastmod = ["lastmod", ":git", "date"]
 
 [[menu.main]]
   url = "/about"
-  name = "About"
+  name = "About us"
   weight = 40
 
-[[menu.footer]]
-  url = "https://syna.okkur.org/demo"
-  name = "Getting Started"
-  weight = 10
-
-[[menu.footer]]
-  url = "https://about.okkur.org/"
-  name = "About Okkur Labs"
-  weight = 20
-
-[[menu.footer_social]]
-  weight = 30
-  name = "github"
-  url = "https://git.okkur.org/syna"
-  pre = "fab fa-github fa-stack-2x"
+#[[menu.footer]]
+#  url = "https://syna.okkur.org/demo"
+#  name = "Getting Started"
+#  weight = 10
+#
+#[[menu.footer]]
+#  url = "https://about.okkur.org/"
+#  name = "About Okkur Labs"
+#  weight = 20
+#
+#[[menu.footer_social]]
+#  weight = 30
+#  name = "github"
+#  url = "https://git.okkur.org/syna"
+#  pre = "fab fa-github fa-stack-2x"
 
 [[menu.copyright_footer]]
   url = "/about"

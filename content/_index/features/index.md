@@ -3,6 +3,6 @@ fragment = "items"
 weight = 100
 background = "light"
 
-title = "Features"
-subtitle= "Syna comes with a lot of features"
+title = "Services"
+subtitle= "​Solutions for corporates, companies and public sectors"
 +++

@@ -1,7 +1,7 @@
 +++
 fragment = "footer"
 #disabled = true
-date = "2016-09-07"
+date = "2020-07-11"
 weight = 1200
 background = "secondary"
 
@@ -12,6 +12,6 @@ menu_title = "Further Resources"
   text = "Logo Subtext"
 +++
 
-#### Syna Theme
+#### Origoss Solutions
 
 Highly customizable open source theme for Hugo based static websites
