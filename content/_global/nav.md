@@ -3,8 +3,8 @@ fragment = "nav"
 #disabled = true
 date = "2020-07-11"
 weight = 0
-background = "dark"
-search = true
+background = "light"
+search = false
 sticky = true
 
 [breadcrumb]
@@ -17,8 +17,8 @@ sticky = true
   image = "logo.svg"
   text = "Origoss"
 
-[repo_button]
-  url = "https://github.com/origoss"
-  text = "Star" # default: "Star"
-  icon = "fab fa-github" # defaults: "fab fa-github"
+#[repo_button]
+#  url = "https://github.com/origoss"
+#  text = "Star" # default: "Star"
+#  icon = "fab fa-github" # defaults: "fab fa-github"
 +++
