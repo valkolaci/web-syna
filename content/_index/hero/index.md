@@ -1,5 +1,5 @@
 +++
-fragment = "front"
+fragment = "hero"
 #disabled = true
 date = "2020-07-11"
 weight = 50
