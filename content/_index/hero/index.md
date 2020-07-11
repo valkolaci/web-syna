@@ -13,7 +13,7 @@ subtitle = "Showcase your next project"
   image = "kccnc-eu-2020-white.png"
 
 [asset]
-  image = "/static/images/logo.svg"
+  image = "logo.svg"
   width = "500px" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 
