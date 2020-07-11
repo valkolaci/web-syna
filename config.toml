@@ -113,5 +113,5 @@ lastmod = ["lastmod", ":git", "date"]
 
 [[menu.copyright_footer]]
   url = "/about"
-  name = "About Us"
+  name = "About us"
   weight = 10
