@@ -54,6 +54,10 @@ lastmod = ["lastmod", ":git", "date"]
     disabled = false
     pro = false
 
+  [params.fonts]
+    sans-serif = "Times"
+    monospace = "Courier New"
+
   [params.colors]
     primary = "#254f24"
     secondary = "#3fab3c"
