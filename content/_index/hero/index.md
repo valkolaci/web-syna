@@ -8,11 +8,11 @@ title = "Origoss Solutions"
 subtitle = "Showcase your next project"
 
 [header]
-  image = "kccnc-eu-2020-white.png"
+  image = "Kube-con-bckgrnd-orgioss.jpg"
 
 [asset]
   image = "logo.svg"
-  width = "40%" # optional - will default to image width
+  width = "80%" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 
 [[buttons]]
