@@ -6,12 +6,12 @@ weight = 0
 background = "light"
 search = false
 sticky = true
-minHeight = "10em"
+minHeight = "20em"
 
-[breadcrumb]
-  display = true # Default value is false
-  #level = 0 # Default is 1
-  background = "light"
+#[breadcrumb]
+#  display = true # Default value is false
+#  #level = 0 # Default is 1
+#  background = "light"
 
 # Branding options
 [asset]

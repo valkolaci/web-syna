@@ -6,7 +6,7 @@ weight = 50
 background = "dark"
 color = "light"
 
-minHeight = "15em"
+minHeight = "16em"
 title = "About us"
 title_align = "left"
 #subtitle = ""
