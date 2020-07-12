@@ -3,13 +3,13 @@ fragment = "hero"
 #disabled = true
 date = "2020-07-11"
 weight = 50
-background = "light"
+background = "dark"
 color = "light"
 
-minHeight = "7em"
-title = "About Us"
+minHeight = "20em"
+title = "About us"
 title_align = "left"
-subtitle = "subtitle"
+#subtitle = ""
 
 [header]
   image = "origoss-about.png"
