@@ -11,8 +11,8 @@ subtitle = "Showcase your next project"
   image = "Kube-con-bckgrnd-orgioss.jpg"
 
 [asset]
-  image = "logo.svg"
-  width = "80%" # optional - will default to image width
+  image = "kccnc-eu-2020-white.png"
+  #width = "80%" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 
 [[buttons]]
