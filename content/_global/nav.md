@@ -16,6 +16,7 @@ sticky = true
 [asset]
   image = "logo.svg"
   text = "Origoss"
+  height = "150px"
 
 #[repo_button]
 #  url = "https://github.com/origoss"
