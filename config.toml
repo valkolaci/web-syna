@@ -93,6 +93,11 @@ lastmod = ["lastmod", ":git", "date"]
   name = "Contact us"
   weight = 40
 
+[[menu.main]]
+  url = "/blog"
+  name = "Blog"
+  weight = 50
+
 [[menu.copyright_footer]]
   url = "https://www.facebook.com/origoss/"
   name = "facebook"
