@@ -25,7 +25,7 @@ lastmod = ["lastmod", ":git", "date"]
      unsafe = true
 
 [params]
-  name = "Okkur Labs"
+  name = "Origoss Solutions Ltd."
   description = "Open Source Theme for your next project"
   debug = true
   unsafeEvents = true # Default is false. Enables ?event=type format of url events.
@@ -95,16 +95,26 @@ lastmod = ["lastmod", ":git", "date"]
   name = "About us"
   weight = 50
 
-#[[menu.footer]]
-#  url = "https://syna.okkur.org/demo"
-#  name = "Getting Started"
-#  weight = 10
-#
-#[[menu.footer]]
-#  url = "https://about.okkur.org/"
-#  name = "About Okkur Labs"
-#  weight = 20
-#
+[[menu.footer]]
+  url = "/"
+  name = "Home"
+  weight = 10
+
+[[menu.footer]]
+  url = "/services"
+  name = "Services"
+  weight = 20
+
+[[menu.footer]]
+  url = "/about"
+  name = "About us"
+  weight = 30
+
+[[menu.footer]]
+  url = "/contact"
+  name = "Contact us"
+  weight = 40
+
 #[[menu.footer_social]]
 #  weight = 30
 #  name = "github"

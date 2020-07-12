@@ -11,5 +11,3 @@ background = "light"
   image = "logo.svg"
   text = "Logo Subtext"
 +++
-
-[Home](/) | [Services](/services) | [About us](/about) | [Contact us](/contact)
