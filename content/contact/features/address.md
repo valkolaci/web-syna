@@ -6,6 +6,5 @@ weight = 10
   icon = "fas fa-map-marker"
 +++
 
-Kruspér utca 6-8.,
-
+Kruspér utca 6-8.,  
 Budapest, Hungary H-1111
