@@ -89,37 +89,6 @@ lastmod = ["lastmod", ":git", "date"]
   name = "Contact us"
   weight = 40
 
-[[menu.footer_social]]
-  url = "https://www.facebook.com/origoss/"
-  name = "facebook"
-  weight = 10
-  pre = "fab fa-facebook"
-
-[[menu.footer_social]]
-  url = "https://www.linkedin.com/company/origoss/"
-  name = "linkedin"
-  weight = 20
-#  pre = "fa fa-linkedin"
-  pre = "fas fa-twitter"
-
-[[menu.footer_social]]
-  url = "https://twitter.com/origoss_com"
-  name = "twitter"
-  weight = 30
-  pre = "fa fa-twitter"
-
-[[menu.footer_social]]
-  url = "https://www.instagram.com/origoss.io/"
-  name = "instagram"
-  weight = 40
-  pre = "fab fa-instagram"
-
-[[menu.footer_social]]
-  url = "https://github.com/origoss"
-  name = "github"
-  weight = 50
-  pre = "fab fa-github fa-stack-2x"
-
 [[menu.copyright_footer]]
   url = "https://www.facebook.com/origoss/"
   name = "facebook"
@@ -130,7 +99,7 @@ lastmod = ["lastmod", ":git", "date"]
   url = "https://www.linkedin.com/company/origoss/"
   name = "linkedin"
   weight = 20
-  pre = "fa fa-linkedin"
+  pre = "fab fa-linkedin"
 
 [[menu.copyright_footer]]
   url = "https://twitter.com/origoss_com"
