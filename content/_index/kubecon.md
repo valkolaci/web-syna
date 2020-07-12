@@ -9,4 +9,6 @@ background = "light"
   width = "50%"
 +++
 
-<img src="_index/kccnc-eu-2020-color-1200x534.png" style="width:50%; text-align: center"/>
+<div style="text-align: center">
+<img src="_index/kccnc-eu-2020-color-1200x534.png" style="width:50%"/>
+</div>
