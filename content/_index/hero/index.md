@@ -12,6 +12,8 @@ background = "dark" # can influence the text color
 
 [asset]
   image = "kccnc-eu-2020-white.png"
+  text = "text"
+  title = "title"
   width = "40%"
 
 #[[buttons]]
