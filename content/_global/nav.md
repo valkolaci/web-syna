@@ -15,7 +15,6 @@ sticky = true
 # Branding options
 [asset]
   image = "logo.svg"
-  height = "58px"
   text = "Origoss"
 
 #[repo_button]
