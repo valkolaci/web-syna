@@ -6,7 +6,6 @@ weight = 0
 background = "light"
 search = false
 sticky = true
-minHeight = "20em"
 
 #[breadcrumb]
 #  display = true # Default value is false
@@ -16,6 +15,7 @@ minHeight = "20em"
 # Branding options
 [asset]
   image = "logo.svg"
+  height = "58px"
   text = "Origoss"
 
 #[repo_button]
