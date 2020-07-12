@@ -13,7 +13,7 @@ title = "OUR VISION"
   align = "right"
   #sticky = true # Default is false
 
-[asset]
+[sidebar.asset]
   image = "Logo-Red_Hat-Premier_Bus_Partner-A-Standard-RGB.svg"
   text = "Red Hat Premier Business Partner"
 
