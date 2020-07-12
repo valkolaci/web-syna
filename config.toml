@@ -99,13 +99,14 @@ lastmod = ["lastmod", ":git", "date"]
   url = "https://www.linkedin.com/company/origoss/"
   name = "linkedin"
   weight = 20
-  pre = "fa fa-linkedin"
+#  pre = "fa fa-linkedin"
+  pre = "fas fa-twitter"
 
 [[menu.footer_social]]
   url = "https://twitter.com/origoss_com"
   name = "twitter"
   weight = 30
-  pre = "fab fa-twitter"
+  pre = "fa fa-twitter"
 
 [[menu.footer_social]]
   url = "https://www.instagram.com/origoss.io/"
