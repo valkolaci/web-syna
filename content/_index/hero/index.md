@@ -1,10 +1,8 @@
 +++
 fragment = "hero"
-#disabled = true
 date = "2020-07-11"
 weight = 50
 background = "light" # can influence the text color
-#particles = true
 
 title = "Origoss Solutions"
 subtitle = "Showcase your next project"
@@ -14,7 +12,7 @@ subtitle = "Showcase your next project"
 
 [asset]
   image = "logo.svg"
-  width = "500px" # optional - will default to image width
+  width = "250px" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 
 [[buttons]]
