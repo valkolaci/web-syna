@@ -63,7 +63,7 @@ lastmod = ["lastmod", ":git", "date"]
     warning = "#e0e0e0"
     danger = "#dc1200"
     light = "#ffffff"
-    dark = "#000000"
+    dark = "#303030"
 
 # main/prepend/postpend menus are displayed in nav fragment.
 # footer/footer_social menus are displayed in footer fragment.
