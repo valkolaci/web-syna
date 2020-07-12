@@ -90,25 +90,17 @@ lastmod = ["lastmod", ":git", "date"]
   name = "Contact us"
   weight = 40
 
-[[menu.footer]]
-  url = "/"
-  name = "Home"
+[[menu.footer_social]]
+  url = "https://www.facebook.com/origoss/"
+  name = "facebook"
   weight = 10
+  pre = "fas fa-facebook"
 
-[[menu.footer]]
-  url = "/services"
-  name = "Services"
-  weight = 20
-
-[[menu.footer]]
-  url = "/about"
-  name = "About us"
+[[menu.footer_social]]
+  url = "https://github.com/origoss"
+  name = "github"
   weight = 30
-
-[[menu.footer]]
-  url = "/contact"
-  name = "Contact us"
-  weight = 40
+  pre = "fab fa-github fa-stack-2x"
 
 [[menu.copyright_footer]]
   url = "https://www.facebook.com/origoss/"
