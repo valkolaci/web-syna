@@ -13,9 +13,9 @@ title = "OUR VISION"
   #sticky = true # Default is false
 
   content = """
-![Kubernetes Certified Service Provider](kubernetes-kcsp-color.svg =10%)
+![Kubernetes Certified Service Provider](kubernetes-kcsp-color.svg)
 
-![Red Hat Premier Business Partner](Logo-Red_Hat-Premier_Bus_Partner-A-Standard-RGB.svg =40x)
+![Red Hat Premier Business Partner](Logo-Red_Hat-Premier_Bus_Partner-A-Standard-RGB.svg)
 """
 
 +++
