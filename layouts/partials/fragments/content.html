@@ -47,8 +47,13 @@
         </div>
       {{- end }}
       {{- if .Params.asset -}}
-        <div class="content-image col-12">
-          <img src="{{ partial "helpers/image.html" (dict "root" . "asset" .Params.asset) }}" {{ if .Params.asset.width }}style="width: {{ .Params.asset.width }}" {{ end }}alt="{{ .Params.subtitle | default .Params.title }}" class="img-fluid mb-4">
+        <div class="content-image {{ if .Params.asset.center }}text-center {{ end }}col-12">
+          <img src="{{ partial "helpers/image.html" (dict "root" . "asset" .Params.asset) }}"
+            style="
+              {{- if .Params.asset.height }}height: {{ .Params.asset.height }} !important;{{- end -}}
+              {{- if .Params.asset.width }}width: {{ .Params.asset.width }} !important;{{- end -}}
+            "
+            alt="{{ .Params.subtitle | default .Params.title }}" class="img-fluid mb-4">
         </div>
       {{- end -}}
       <div class="content-body col-12 content px-0

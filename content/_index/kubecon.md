@@ -9,10 +9,8 @@ title = "title"
 [asset]
   image = "kccnc-eu-2020-color-1200x534.png"
   width = "30%"
+  center = true
 +++
-<div style="text-align: center">
-<img src="_index/kccnc-eu-2020-color-1200x534.png" style="width:30%"/>
-</div>
 <div class="title text-center">
 <h1>
 Meet us at KubeCon Europe 2020 Virtual!
