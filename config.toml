@@ -117,4 +117,4 @@ lastmod = ["lastmod", ":git", "date"]
   url = "https://github.com/origoss"
   name = "github"
   weight = 50
-  pre = "fab fa-github fa-stack-2x"
+  pre = "fab fa-github"

@@ -1,18 +1,10 @@
 +++
 fragment = "content"
-#disabled = true
 date = "2020-07-11"
 weight = 100
-#background = ""
-
-title = "About Us"
-#subtitle = ""
-
 +++
 
 # About Us
-
-## About Us
 
 We believe in further expansion of Cloud Native technologies. The wide-spread acceptance of open source solutions will play a key role in this. Having realized that, and have been focusing on Cloud Native technologies by actively participating in the open source community.
 
