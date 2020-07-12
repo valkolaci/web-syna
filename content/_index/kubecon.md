@@ -9,8 +9,6 @@ background = "light"
   width = "50%"
 +++
 
-![KubeCon](_index/kccnc-eu-2020-color-1200x534.png) <!-- .element width="50%" -->
-
-![KubeCon](_index/kccnc-eu-2020-color-1200x534.png){:width="50%"}
-
+<div class="content-image col-12">
 <img src="_index/kccnc-eu-2020-color-1200x534.png" style="width:50%"/>
+</div>
