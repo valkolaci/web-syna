@@ -6,6 +6,7 @@ weight = 0
 background = "light"
 search = false
 sticky = true
+minHeight = "10em"
 
 [breadcrumb]
   display = true # Default value is false
