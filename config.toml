@@ -94,7 +94,7 @@ lastmod = ["lastmod", ":git", "date"]
   url = "https://www.facebook.com/origoss/"
   name = "facebook"
   weight = 10
-  pre = "fas fa-facebook"
+  pre = "fab fa-facebook"
 
 [[menu.footer_social]]
   url = "https://github.com/origoss"
@@ -106,7 +106,7 @@ lastmod = ["lastmod", ":git", "date"]
   url = "https://www.facebook.com/origoss/"
   name = "facebook"
   weight = 10
-  pre = "fas fa-facebook"
+  pre = "fab fa-facebook"
 
 [[menu.copyright_footer]]
   url = "https://github.com/origoss"

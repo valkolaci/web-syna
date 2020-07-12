@@ -9,7 +9,6 @@ color = "light"
 minHeight = "16em"
 title = "Contact us"
 title_align = "left"
-#subtitle = ""
 
 [header]
   image = "origoss-contact.png"
