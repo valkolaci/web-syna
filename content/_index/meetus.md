@@ -12,7 +12,7 @@ background = "light"
   image = "kccnc-eu-2020-color-1200x534.png"
 #  text = "text"
 #  title = "title"
-  width = "30%"
+  width = "100px"
 
 +++
 
