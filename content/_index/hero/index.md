@@ -12,7 +12,7 @@ subtitle = "Showcase your next project"
 
 [asset]
   image = "logo.svg"
-  width = "250px" # optional - will default to image width
+  width = "40%" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 
 [[buttons]]
