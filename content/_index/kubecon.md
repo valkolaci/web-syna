@@ -12,3 +12,7 @@ background = "light"
 Meet us at KubeCon Europe 2020 Virtual!
 <h2>
 </div>
+
+# Meet us at KubeCon Europe 2020 Virtual!
+
+## Meet us at KubeCon Europe 2020 Virtual!
