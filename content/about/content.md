@@ -9,12 +9,17 @@ title = "OUR VISION"
 #subtitle = ""
 
 [sidebar]
-  title = "Sidebar"
+#  title = "Sidebar"
   align = "right"
   #sticky = true # Default is false
-  content = """
-Content!
-"""
+
+[asset]
+  image = "Logo-Red_Hat-Premier_Bus_Partner-A-Standard-RGB.svg"
+  text = "Red Hat Premier Business Partner"
+
+#  content = """
+#Content!
+#"""
 
 +++
 
