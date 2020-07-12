@@ -3,6 +3,6 @@ fragment = "items"
 weight = 100
 background = "light"
 
-title = "Services"
+title = "SERVICES"
 subtitle= "Solutions for corporates, companies and public sectors"
 +++

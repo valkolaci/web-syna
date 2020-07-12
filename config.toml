@@ -100,7 +100,7 @@ lastmod = ["lastmod", ":git", "date"]
   url = "https://www.linkedin.com/company/origoss/"
   name = "linkedin"
   weight = 20
-  pre = "fab fa-linkedin"
+  pre = "fa fa-linkedin"
 
 [[menu.footer_social]]
   url = "https://twitter.com/origoss_com"
@@ -118,7 +118,7 @@ lastmod = ["lastmod", ":git", "date"]
   url = "https://github.com/origoss"
   name = "github"
   weight = 50
-  pre = "fab fa-github fa-stack-2x"
+  pre = "fa fa-github"
 
 [[menu.copyright_footer]]
   url = "https://www.facebook.com/origoss/"
