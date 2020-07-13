@@ -6,7 +6,7 @@ title = "Blog"
 title_align = "center"
 count = 4
 section = "blog"
-tiled = true
+tiled = false
 sort = "Date"
 display_date = true
 +++
