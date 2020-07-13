@@ -2,11 +2,10 @@
 fragment = "content"
 weight = 110
 
-title = "1Eight of a kind of CKAs"
+title = "Eight of a kind of CKAs"
 
 [asset]
-  image = "0.mp4"
-  title = "2Eight of a kind of CKAs"
+  image = "linkedin1.png"
 
 +++
 

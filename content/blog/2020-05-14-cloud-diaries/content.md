@@ -2,11 +2,10 @@
 fragment = "content"
 weight = 100
 
-title = "1Cloud Native Diaries - Shape the cloud, not the client"
+title = "Cloud Native Diaries - Shape the cloud, not the client"
 
 [asset]
   image = "0.jpg"
-  title = "2Cloud Native Diaries - Shape the cloud, not the client"
 
 +++
 
