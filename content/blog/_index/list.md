@@ -7,6 +7,6 @@ title_align = "center"
 count = 3
 section = "blog"
 tiled = true
-sort = +++
+sort = date
 display_date = true
 +++
