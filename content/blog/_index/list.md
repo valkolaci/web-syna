@@ -4,7 +4,7 @@ weight = 100
 
 title = "Blog"
 title_align = "center"
-count = 3
+count = 4
 section = "blog"
 tiled = true
 sort = "Date"
