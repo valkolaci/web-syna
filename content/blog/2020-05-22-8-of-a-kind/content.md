@@ -7,6 +7,7 @@ title = "Eight of a kind of CKAs"
 
 [asset]
   image = "linkedin1.png"
+  center = true
 
 +++
 
