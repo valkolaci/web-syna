@@ -1,6 +1,6 @@
 +++
 fragment = "content"
-weight = 110
+date = "2020-05-22"
 
 title = "Eight of a kind of CKAs"
 

@@ -1,7 +1,6 @@
 +++
 fragment = "content"
-weight = 80
-
+date = "2020-05-02"
 title = "Blog 2"
 
 +++
