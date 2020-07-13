@@ -2,8 +2,12 @@
 fragment = "content"
 weight = 100
 
+title = "1Cloud Native Diaries - Shape the cloud, not the client"
+
 [asset]
   image = "0.jpg"
+  title = "2Cloud Native Diaries - Shape the cloud, not the client"
+
 +++
 
 As you might have experienced, there are quite a few well-established and reliable Kubernetes distributions and managed solutions available on the market. These distributors and managed service providers all build their partner networks around the world. Their partners are deeply experienced with their specific system and ready to sell new subscriptions, but might lack the experience and expertise to build a tailor-made cloud solution. This is where a consultant company that onboarded several clients onto a diverse set of cloud systems could be worth its weight in gold.
