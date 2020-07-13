@@ -8,13 +8,13 @@ weight = 100
 title = "OUR VISION"
 #subtitle = ""
 
-[sidebar]
-  align = "right"
-  #sticky = true # Default is false
-
+[leftsidebar]
   content = """
 ![Kubernetes Certified Service Provider](kubernetes-kcsp-color.svg)
+"""
 
+[rightsidebar]
+  content = """
 ![Red Hat Premier Business Partner](Logo-Red_Hat-Premier_Bus_Partner-A-Standard-RGB.svg)
 """
 

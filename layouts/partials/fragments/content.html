@@ -33,7 +33,67 @@
       </div>
       <article class="col-md-10">
     {{- else }}
+      {{- if and .Params.leftsidebar .Params.rightsidebar -}}
+      {{- with .Params.leftsidebar -}}
+      <div class="content-sidebar col-md-2 pb-4 px-md-0 order-0">
+        {{- if .sticky }}
+          <div class="sticky-top pt-3">
+        {{- end -}}
+        {{- if .title }}
+          <div class="content-sidebar-title col-12 px-0
+            {{- partial "helpers/text-color.html" (dict "self" $self) -}}
+          ">
+            {{- $title_align := .title_align | default "left" -}}
+            <h3 class="sidebar-title {{- printf " text-%s" $title_align -}}">
+              {{- .title | markdownify -}}
+            </h3>
+          </div>
+        {{- end }}
+        {{- $content_align := .content_align | default "left" -}}
+        <div class="content-sidebar-body col-12 px-0
+          {{- printf " text-%s" $content_align -}}
+          {{- partial "helpers/text-color.html" (dict "self" $self "light" "secondary") -}}
+        ">
+          {{- .content | markdownify -}}
+          {{ partial "helpers/slot.html" (dict "root" $ "slot" "sidebar" "data" (dict "page" $.page "content_fragment" $self)) }}
+        </div>
+        {{- if .sticky }}
+          </div> {{/* .sticky-top */}}
+        {{- end -}}
+      </div>
+      {{- end }}
+      {{- with .Params.rightsidebar -}}
+      <div class="content-sidebar col-md-2 pb-4 px-md-0 order-1">
+        {{- if .sticky }}
+          <div class="sticky-top pt-3">
+        {{- end -}}
+        {{- if .title }}
+          <div class="content-sidebar-title col-12 px-0
+            {{- partial "helpers/text-color.html" (dict "self" $self) -}}
+          ">
+            {{- $title_align := .title_align | default "left" -}}
+            <h3 class="sidebar-title {{- printf " text-%s" $title_align -}}">
+              {{- .title | markdownify -}}
+            </h3>
+          </div>
+        {{- end }}
+        {{- $content_align := .content_align | default "left" -}}
+        <div class="content-sidebar-body col-12 px-0
+          {{- printf " text-%s" $content_align -}}
+          {{- partial "helpers/text-color.html" (dict "self" $self "light" "secondary") -}}
+        ">
+          {{- .content | markdownify -}}
+          {{ partial "helpers/slot.html" (dict "root" $ "slot" "sidebar" "data" (dict "page" $.page "content_fragment" $self)) }}
+        </div>
+        {{- if .sticky }}
+          </div> {{/* .sticky-top */}}
+        {{- end -}}
+      </div>
+      {{- end }}
+      <article class="col-md-8">
+      {{- else }}
       <article class="col-md-12">
+      {{- end }}
     {{- end }}
       {{- partial "helpers/section-header.html" (dict "self" $self "bg" $bg "params" .Params) }}
       {{- if or .Params.display_date .Params.categories -}}
