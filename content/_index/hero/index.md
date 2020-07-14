@@ -16,5 +16,4 @@ Keep Cloud Native Connected – An Online Experience
 [asset]
   image = "kccnc-eu-2020-white.png"
   width = "40%"
-
 +++
