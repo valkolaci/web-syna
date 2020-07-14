@@ -54,7 +54,7 @@ lastmod = ["lastmod", ":git", "date"]
     pro = false
 
   [params.fonts]
-    sansserif = "Roboto, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif !default"
+    sansserif = "Lato, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif !default"
 #    sansserif = "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\" !default"
     monospace = "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace !default"
 
