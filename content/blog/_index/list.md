@@ -1,9 +1,7 @@
 +++
-fragment = "list" # declare list fragment
+fragment = "bloglist"
 weight = 100
 
-title = "Blog"
-title_align = "center"
 count = 4
 section = "blog"
 tiled = false
