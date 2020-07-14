@@ -15,7 +15,7 @@
   {{- end -}}
 " id="{{ .Name }}" role="navigation"
 {{- if .Params.sticky -}}
-  {{- safeHTMLAttr (print " style='position: sticky; top: 0; z-index: 10000 !important; font-size: 125%;'") -}}
+  {{- safeHTMLAttr (print " style='position: sticky; top: 0; z-index: 10000 !important'") -}}
 {{- else -}}
   {{- safeHTMLAttr (print " style='font-size: 125%;'") -}}
 {{- end -}}>
@@ -64,6 +64,7 @@
                 {{- else }}
                   class="nav-link {{- if $isMenuCurrent }} active default-active {{- end -}} {{ if .HasChildren }} dropdown-toggle{{ end }}"
                 {{- end }}
+                  style="text-transform: uppercase; font-weight: bold; letter-spacing: 2px; margin-left: 32px"
                 {{if .HasChildren}}
                   id="navbarDropdown"
                   role="button"
