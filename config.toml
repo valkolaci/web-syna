@@ -37,7 +37,7 @@ lastmod = ["lastmod", ":git", "date"]
   [params.custom]
     favicon = "favicon.ico"
 #    favicon_ico_sizes = "16x16 32x32"
-    favicon_png = "favicon_114.png"
+    favicon_png = "favicon_144.png"
 
   # Piwik tracking
   [params.analytics.piwik]
