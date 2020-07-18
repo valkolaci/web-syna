@@ -1,6 +1,5 @@
 +++
 fragment = "contact"
-#disabled = true
 date = "2020-07-11"
 weight = 200
 background = "secondary"
