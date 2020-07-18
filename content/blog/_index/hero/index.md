@@ -9,5 +9,5 @@ minHeight = "12em"
 title = "Blog"
 
 [header]
-  image = "origoss-macbook.jpg"
+  image = "origoss-blog.jpg"
 +++
