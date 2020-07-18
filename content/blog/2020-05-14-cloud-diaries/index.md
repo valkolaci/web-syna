@@ -4,14 +4,16 @@ date = "2020-05-14"
 weight = 100
 
 title = "Cloud Native Diaries - Shape the cloud, not the client"
+categories = ["blog", "kubernetes", "cloud-native"]
 
 [asset]
   image = "0.jpg"
+
 +++
 
 As you might have experienced, there are quite a few well-established and reliable Kubernetes distributions and managed solutions available on the market. These distributors and managed service providers all build their partner networks around the world. Their partners are deeply experienced with their specific system and ready to sell new subscriptions, but might lack the experience and expertise to build a tailor-made cloud solution. This is where a consultant company that onboarded several clients onto a diverse set of cloud systems could be worth its weight in gold.
 
-Have you recognized any of these challenges?:
+Have you recognized any of these challenges?
 
 - Your use case is not typical, the vendor-committed company doesn’t provide a ready-to-use solution to this problem.
 - Your issue seems to be small but finding a solution is time consuming.
