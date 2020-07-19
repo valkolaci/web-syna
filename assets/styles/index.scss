@@ -13,6 +13,7 @@ $font-family-sans-serif: {{ .Site.Params.fonts.sansserif | default "-apple-syste
 $font-family-monospace:  {{ .Site.Params.fonts.monospace | default "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace !default" }};
 
 $link-color:          $primary;
+$article-author-color: $primary;
 
 $gray-200:            #e9ecef !default;
 $border-color:        $gray-200;
@@ -39,3 +40,4 @@ $dropdown-item-padding-x: 1rem;
 @import './search';
 @import './toc';
 @import './syna';
+@import './local';
