@@ -1,0 +1,29 @@
+{{- $self := . -}}
+{{ if gt (len .Site.Data.carousel) 0 }}
+{{- .page_scratch.Add "js" (dict "url" "https://code.jquery.com/jquery-3.1.1.min.js" "defer" false "async" false) -}}
+{{- .page_scratch.Add "js" (dict "file" "front.js" "defer" false "async" false) -}}
+{{- .page_scratch.Add "js" (dict "file" "owl.carousel.min.js" "defer" false "async" false) -}}
+<section id="carousel">
+    <div class="home-carousel">
+        <div class="dark-mask"></div>
+        <div class="container">
+            <div class="homepage owl-carousel">
+                {{ range sort .Site.Data.carousel "weight" }}
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-5 right">
+                            <h1>{{ .title }}</h1>
+                            {{ .description | safeHTML }}
+                        </div>
+                        <div class="col-sm-7">
+                            <img class="img-responsive" src="{{ .image }}" alt="">
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <!-- /.project owl-slider -->
+        </div>
+    </div>
+</section>
+{{ end }}
