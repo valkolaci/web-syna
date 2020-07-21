@@ -3,6 +3,7 @@
 {{- .page_scratch.Add "js" (dict "url" "https://code.jquery.com/jquery-3.1.1.min.js" "defer" false "async" false) -}}
 {{- .page_scratch.Add "js" (dict "file" "front.js" "defer" false "async" false) -}}
 {{- .page_scratch.Add "js" (dict "file" "owl.carousel.min.js" "defer" false "async" false) -}}
+{{ "<!-- Carousel -->" | safeHTML }}
 <section id="carousel">
     <div class="home-carousel">
         <div class="dark-mask"></div>
