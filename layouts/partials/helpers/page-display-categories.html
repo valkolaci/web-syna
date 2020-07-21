@@ -1,0 +1,16 @@
+{{- $page := .page -}}
+{{- $self := .self -}}
+
+{{- $page_display_categories := $page.Params.display_categories -}}
+{{- if not $page_display_categories -}}
+  {{- $self.Scratch.Set "page_display_categories_page_fragments" (slice .) -}}
+  {{- range $page.Resources.ByType "page" -}}
+    {{- $self.Scratch.Add "page_display_categories_page_fragments" . -}}
+  {{- end -}}
+  {{- $content_page := first 1 (where ($self.Scratch.Get "page_display_categories_page_fragments") "Params.fragment" "in" "content") -}}
+
+  {{- if $content_page -}}
+    {{- $page_display_categories = (index $content_page 0).Params.display_categories -}}
+  {{- end -}}
+{{- end -}}
+{{- return $page_display_categories -}}

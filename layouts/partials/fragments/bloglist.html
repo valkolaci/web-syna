@@ -15,6 +15,9 @@
     {{- range first (.Params.count | default 10) $sorted_pages -}}
       {{- $page := . -}}
       {{- $page_title := partial "helpers/page-title.html" (dict "page" . "self" .) -}}
+      {{- $page_author := partial "helpers/page-author.html" (dict "page" . "self" .) -}}
+      {{- $page_display_categories := partial "helpers/page-display-categories.html" (dict "page" . "self" .) -}}
+      {{- $page_categories := partial "helpers/page-categories.html" (dict "page" . "self" .) -}}
       {{- $self.page_scratch.Set "article_page_fragments" (slice .) -}}
       {{- range .Resources.ByType "page" -}}
         {{- $self.page_scratch.Add "article_page_fragments" . -}}
@@ -25,7 +28,6 @@
       {{- $slot_context := dict "page" $page "content_fragment" (index $content_page 0) -}}
       {{- partial "helpers/slot.html" (dict "root" $ "slot" "before-item" "data" $slot_context) -}}
         <div class="row col-12 px-0 mb-5">
-
           <div class="col-4 pl-0">
           {{- range $content_page }}
             {{- if and (ne $self.Params.images false) .Params.asset -}}
@@ -63,21 +65,19 @@
                         </a>
                       </h5>
                     {{- end -}}
-                    {{- if .Params.author -}}
+                    {{- if $page_author -}}
                       <div class="pl-0 mx-0 article-author">
-                        by {{ .Params.author -}}
+                        by {{ $page_author -}}
                       </div>
                     {{- end -}}
                   </div>
             {{- end -}}
-            {{- if or (and (ne $self.Params.display_categories false) .Params.categories) $self.Params.display_date -}}
+            {{- if or (and (ne $page_display_categories false) $page_categories) $self.Params.display_date -}}
                 <div class="row align-items-center justify-content-between mx-0">
-                  {{- if and (ne $self.Params.display_categories false) .Params.categories -}}
+                  {{- if and (ne $page_display_categories false) $page_categories -}}
                     <div class="pl-0">
-                      {{- if ne $self.Params.display_categories false -}}
-                        {{- with .Params.categories }}
-                          {{- partial "helpers/categories.html" (dict "categories" . "background" $bg) -}}
-                        {{- end -}}
+                      {{- if ne $page_display_categories false -}}
+                        {{- partial "helpers/categories.html" (dict "categories" $page_categories "background" $bg) -}}
                       {{- end }}
                     </div>
                   {{- end }}

@@ -96,18 +96,27 @@
       {{- end }}
     {{- end }}
       {{- partial "helpers/section-header.html" (dict "self" $self "bg" $bg "params" .Params) }}
-      {{- if or .Params.display_date .Params.categories -}}
-        <div class="content-info col-12 pb-4 mt-2">
+      {{- if .Params.display_date -}}
+        <div class="content-date col-12 p-0 m-0">
           {{- if .Params.display_date -}}
-            {{- partial "helpers/publish-date.html" (dict "root" $self "background" $bg) -}}
+            {{- partial "helpers/publish-date.html" (dict "root" $self "background" $bg "badge" false "padding0" true) -}}
           {{- end -}}
+        </div>
+      {{- end }}
+      {{- if .Params.author -}}
+        <div class="content-author col-12 p-0 m-0">
+          by {{ .Params.author -}}
+        </div>
+      {{- end -}}
+      {{- if .Params.categories -}}
+        <div class="content-categories col-12 px-0 pb-4 m-0">
           {{- with .Params.categories }}
             {{- partial "helpers/categories.html" (dict "categories" . "background" $bg) -}}
           {{- end }}
         </div>
       {{- end }}
       {{- if .Params.asset -}}
-        <div class="content-image {{ if .Params.asset.center }}text-center {{ end }}col-12">
+        <div class="content-image {{ if .Params.asset.center }}text-center {{ else }}px-0 {{ end }}col-12">
           <img src="{{ partial "helpers/image.html" (dict "root" . "asset" .Params.asset) }}"
             style="
               {{- if .Params.asset.height }}height: {{ .Params.asset.height }} !important;{{- end -}}
