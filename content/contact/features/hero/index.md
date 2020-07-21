@@ -5,7 +5,7 @@ weight = 50
 background = "dark"
 color = "light"
 
-minHeight = "12em"
+minHeight = "10em"
 title = "Contact us"
 title_align = "left"
 

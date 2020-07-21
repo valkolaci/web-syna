@@ -5,7 +5,7 @@ weight = 50
 background = "dark"
 color = "light"
 
-minHeight = "12em"
+minHeight = "10em"
 title = "Solutions for corporates, companies and public sectors"
 
 [header]
