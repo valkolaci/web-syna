@@ -1,0 +1,110 @@
+.owl-carousel .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.owl-carousel .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-carousel .owl-controls.clickable .owl-page:hover span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  background: $carousel-color;
+}
+.owl-carousel .owl-controls .owl-buttons,
+.owl-theme .owl-controls .owl-buttons {
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+.owl-carousel .owl-controls .owl-buttons div,
+.owl-theme .owl-controls .owl-buttons div {
+  width: 26px;
+  height: 26px;
+  line-height: 25px;
+  margin: 0 5px 0 0;
+  font-size: 1em;
+  color: $carousel-color;
+  padding: 0;
+  background: $carousel-light;
+  border-radius: 13px;
+  vertical-align: middle;
+  text-align: center;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.home-carousel {
+  position: relative;
+  background: url('images/carousel/photogrid.jpg') center center repeat;
+  background-size: cover;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.home-carousel .dark-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $carousel-color;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+.home-carousel .owl-carousel {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.home-carousel .owl-theme .owl-controls .owl-page span {
+  background: $carousel-dark;
+}
+.home-carousel .owl-theme .owl-controls .owl-page.active span {
+  background: $carousel-light;
+}
+.home-carousel .owl-theme .owl-controls .owl-page:hover span {
+  background: $carousel-light;
+}
+@media (max-width: 767px) {
+  .home-carousel {
+    text-align: center !important;
+  }
+}
+@media (min-width: 992px) {
+  .home-carousel .right {
+    text-align: right;
+  }
+}
+.home-carousel h1,
+.home-carousel h2,
+.home-carousel h3,
+.home-carousel p,
+.home-carousel ul {
+  color: $carousel-light;
+}
+.home-carousel h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  letter-spacing: 0.08em;
+}
+@media (max-width: 991px) {
+  .home-carousel h1 {
+    font-size: 2em;
+  }
+}
+.home-carousel h2 {
+  font-weight: 700;
+  font-size: 2em;
+}
+.home-carousel ul,
+.home-carousel p {
+  font-size: 1.25em;
+  padding: 0;
+}
+@media (max-width: 991px) {
+  .home-carousel ul,
+  .home-carousel p {
+    font-size: 0.875em;
+  }
+}
+.home-carousel ul li {
+  margin-bottom: 0.25em;
+}

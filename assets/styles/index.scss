@@ -14,6 +14,9 @@ $font-family-monospace:  {{ .Site.Params.fonts.monospace | default "SFMono-Regul
 
 $link-color:          $primary;
 $article-author-color: $primary;
+$carousel-color:      $primary;
+$carousel-dark:       $dark;
+$carousel-light:      $light;
 
 $gray-200:            #e9ecef !default;
 $border-color:        $gray-200;
