@@ -8,3 +8,21 @@
 .content-author {
   color: $article-author-color;
 }
+
+.card {
+  flex: 1 0 auto;
+  max-width: 100%;
+  overflow: hidden;
+  border: 0px;
+}
+.card-title {
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  text-align: justify
+}
+.flex-50 {
+  flex: 1 0 50%;
+}
