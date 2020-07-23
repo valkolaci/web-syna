@@ -23,7 +23,7 @@ function sliderHomepage () {
 function sliders () {
   if ($('.owl-carousel').length) {
     $('.homepage').owlCarousel({
-      navigation: true, // Show next and prev buttons
+      navigation: false, // Show next and prev buttons
       navigationText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
       slideSpeed: 500,
       paginationSpeed: 500,
