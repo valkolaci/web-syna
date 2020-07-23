@@ -21,7 +21,10 @@
           </div>
         {{- end }}
         {{- if .image -}}
-          <div class="content-sidebar-image col-12 px-0">
+          <div class="content-sidebar-image col-12 px-0
+            {{- $image_align := .image_align | default "center" -}}
+            {{- printf " text-%s" $image_align -}}
+          ">
             <img src="{{ partial "helpers/image.html" (dict "root" $base "asset" .) }}"
               style="
                 {{- if .height }}height: {{ .height }} !important;{{- end -}}
@@ -60,6 +63,19 @@
             </h3>
           </div>
         {{- end }}
+        {{- if .image -}}
+          <div class="content-sidebar-image col-12 px-0
+            {{- $image_align := .image_align | default "center" -}}
+            {{- printf " text-%s" $image_align -}}
+          ">
+            <img src="{{ partial "helpers/image.html" (dict "root" $base "asset" .) }}"
+              style="
+                {{- if .height }}height: {{ .height }} !important;{{- end -}}
+                {{- if .width }}width: {{ .width }} !important;{{- end -}}
+              "
+              alt="{{ .subtitle | default .title }}" class="img-fluid mb-4">
+          </div>
+        {{- end -}}
         {{- $content_align := .content_align | default "left" -}}
         <div class="content-sidebar-body col-12 px-0
           {{- printf " text-%s" $content_align -}}
@@ -88,6 +104,19 @@
             </h3>
           </div>
         {{- end }}
+        {{- if .image -}}
+          <div class="content-sidebar-image col-12 px-0
+            {{- $image_align := .image_align | default "center" -}}
+            {{- printf " text-%s" $image_align -}}
+          ">
+            <img src="{{ partial "helpers/image.html" (dict "root" $base "asset" .) }}"
+              style="
+                {{- if .height }}height: {{ .height }} !important;{{- end -}}
+                {{- if .width }}width: {{ .width }} !important;{{- end -}}
+              "
+              alt="{{ .subtitle | default .title }}" class="img-fluid mb-4">
+          </div>
+        {{- end -}}
         {{- $content_align := .content_align | default "left" -}}
         <div class="content-sidebar-body col-12 px-0
           {{- printf " text-%s" $content_align -}}
