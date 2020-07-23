@@ -28,7 +28,7 @@
       {{- $slot_context := dict "page" $page "content_fragment" (index $content_page 0) -}}
       {{- partial "helpers/slot.html" (dict "root" $ "slot" "before-item" "data" $slot_context) -}}
         <div class="row col-12 px-0 mb-5 article-entry">
-          <div class="col-4 pl-0 article-image">
+          <div class="col-lg-4 col-12 pl-0 article-image">
           {{- range $content_page }}
             {{- if and (ne $self.Params.images false) .Params.asset -}}
               {{- $file_path := strings.TrimSuffix ".md" (replace .File.Path "/index.md" "") -}}
@@ -40,7 +40,7 @@
               class="img-fluid">
           {{- end -}}
           </div>
-          <div class="col-8 px-0 mb-4 article-main" />
+          <div class="col-lg-8 col-12 px-0 mb-4 article-main" />
           {{- end -}}
 
             {{- if $page_title -}}
