@@ -27,8 +27,8 @@
       {{- $display_summary := or (not (isset $self.Params "summary")) (eq $self.Params.summary true) -}}
       {{- $slot_context := dict "page" $page "content_fragment" (index $content_page 0) -}}
       {{- partial "helpers/slot.html" (dict "root" $ "slot" "before-item" "data" $slot_context) -}}
-        <div class="row col-12 px-0 mb-5">
-          <div class="col-4 pl-0">
+        <div class="row col-12 px-0 mb-5 article-entry">
+          <div class="col-4 pl-0 article-image">
           {{- range $content_page }}
             {{- if and (ne $self.Params.images false) .Params.asset -}}
               {{- $file_path := strings.TrimSuffix ".md" (replace .File.Path "/index.md" "") -}}
@@ -40,12 +40,12 @@
               class="img-fluid">
           {{- end -}}
           </div>
-          <div class="col-8 px-0 mb-4" />
+          <div class="col-8 px-0 mb-4 article-main" />
           {{- end -}}
 
             {{- if $page_title -}}
                   <div
-                    class="row align-items-center justify-content-between mx-0
+                    class="row align-items-center justify-content-between mx-0 article-title
                     {{- partial "helpers/text-color.html" (dict "self" $self.self) -}}
                   ">
                     {{- if $display_summary }}
@@ -73,7 +73,7 @@
                   </div>
             {{- end -}}
             {{- if or (and (ne $page_display_categories false) $page_categories) $self.Params.display_date -}}
-                <div class="row align-items-center justify-content-between mx-0">
+                <div class="row align-items-center justify-content-between mx-0 article-params">
                   {{- if and (ne $page_display_categories false) $page_categories -}}
                     <div class="pl-0">
                       {{- if ne $page_display_categories false -}}
@@ -89,7 +89,7 @@
                 </div>
             {{- end -}}
             {{- if $display_summary }}
-              <div class="row pl-0 mx-0 mt-2
+              <div class="row pl-0 mx-0 mt-2 article-text
                 {{- partial "helpers/text-color.html" (dict "self" $self.self "light" "secondary") -}}
               ">
                 {{- range $content_page }}
