@@ -10,6 +10,4 @@ subtitle = "Solutions for corporates, companies and public sectors"
 count = 0
 section = "services"
 read_more = false
-display_summary = false
-tiled = true
 +++
