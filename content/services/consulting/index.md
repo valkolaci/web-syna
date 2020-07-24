@@ -7,12 +7,10 @@ background = "light"
 title = "CLOUD NATIVE CONSULTING"
 
 [cardtop]
-  image = "kubernetes-kcsp-color.svg"
-  width = "30%"
+  image = "kcsp.svg"
 [sidebar]
   align = "right"
-  image = "kubernetes-kcsp-color.svg"
-  width = "75%"
+  image = "kcsp.svg"
 +++
 
 As a Kubernetes Certified Service Provider, we help to transforming legacy

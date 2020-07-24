@@ -7,12 +7,10 @@ background = "light"
 title = "PARTICIPATING IN CNCF EVENTS"
 
 [cardtop]
-  image = "kccnc-eu-2020-color-1200x534.png"
-  width = "60%"
+  image = "kccnc-eu-2020-color.svg"
 [sidebar]
   align = "right"
-  image = "kccnc-eu-2020-color-1200x534.png"
-  width = "100%"
+  image = "kccnc-eu-2020-color.svg"
 +++
 
 Origoss Solutions is a regular exhibitor and sponsor of CNCF conferences

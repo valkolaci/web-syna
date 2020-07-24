@@ -5,8 +5,7 @@ weight = 70
 background = "light"
 
 [asset]
-  image = "kccnc-eu-2020-color-1200x534.png"
-  width = "30%"
+  image = "kccnc-eu-2020-color.svg"
   center = true
 +++
 <div class="title text-center">

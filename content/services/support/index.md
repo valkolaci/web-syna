@@ -7,12 +7,10 @@ background = "light"
 title = "CLOUD NATIVE SUPPORT & TRAINING"
 
 [cardtop]
-  image = "kubernetes-icon-color.svg"
-  width = "30%"
+  image = "kubernetes.svg"
 [sidebar]
   align = "right"
-  image = "kubernetes-icon-color.svg"
-  width = "75%"
+  image = "kubernetes.svg"
 +++
 
 We provide professional support services for Enterprise customers.  We help

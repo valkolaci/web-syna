@@ -7,12 +7,10 @@ background = "light"
 title = "RED HAT PREMIER SOLUTION PROVIDER"
 
 [cardtop]
-  image = "Logo-Red_Hat-Premier_Bus_Partner-A-Standard-RGB.svg"
-  width = "40%"
+  image = "redhat.svg"
 [sidebar]
   align = "right"
-  image = "Logo-Red_Hat-Premier_Bus_Partner-A-Standard-RGB.svg"
-  width = "100%"
+  image = "redhat.svg"
 +++
 
 Origoss Solutions is a Red Hat Premier Business Partner with Cloud

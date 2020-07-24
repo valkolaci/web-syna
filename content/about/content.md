@@ -6,12 +6,10 @@ weight = 100
 title = "OUR VISION"
 
 [leftsidebar]
-  image = "kubernetes-kcsp-color.svg"
-  width = "75%"
+  image = "kcsp.svg"
 
 [rightsidebar]
-  image = "Logo-Red_Hat-Premier_Bus_Partner-A-Standard-RGB.svg"
-  width = "100%"
+  image = "redhat.svg"
 +++
 
 We believe in further expansion of Cloud Native technologies.  The

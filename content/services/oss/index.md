@@ -7,12 +7,10 @@ background = "light"
 title = "OPERATIONS SUPPORT & MANAGEMENT"
 
 [cardtop]
-  image = "prometheus_logo_orange_circle.svg"
-  width = "30%"
+  image = "prometheus.svg"
 [sidebar]
   align = "right"
-  image = "prometheus_logo_orange_circle.svg"
-  width = "75%"
+  image = "prometheus.svg"
 +++
 
 Modernize your legacy operations support systems with us (performance

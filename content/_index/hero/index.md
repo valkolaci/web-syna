@@ -14,6 +14,5 @@ Keep Cloud Native Connected – An Online Experience
   image = "Kube-con-bckgrnd-orgioss.jpg"
 
 [asset]
-  image = "kccnc-eu-2020-white.png"
-  width = "40%"
+  image = "kccnc-eu-2020-white-3x.svg"
 +++
