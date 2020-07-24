@@ -8,11 +8,9 @@ title = "CONTRIBUTING TO OPEN SOURCE SOFTWARE"
 
 [cardtop]
   image = "github.svg"
-  width = "30%"
 [sidebar]
-  image = "github.svg"
   align = "right"
-  width = "75%"
+  image = "github.svg"
 +++
 
 Origoss Solutions is a contributor to several open source projects.  We also
